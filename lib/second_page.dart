@@ -23,15 +23,16 @@ class _SecondPageState extends State<SecondPage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Welcome'),
-        backgroundColor: Colors.blueGrey[700],
+        backgroundColor: Colors.red,
+        centerTitle: true,
       ),
-      backgroundColor: Colors.grey[800],
+      backgroundColor: Colors.white,
       body: Center(
         child: Text(
-          'Welcome, ${widget.username}!',
+          'Whatsuppp boiiii, ${widget.username}!',
           style: const TextStyle(
-            color: Colors.white,
-            fontSize: 24,
+            color: Colors.black,
+            fontSize: 56,
           ),
         ),
       ),
